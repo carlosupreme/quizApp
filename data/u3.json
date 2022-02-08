@@ -1,0 +1,42 @@
+[
+  {
+    "question": "¿Cuando el valor de verdad de 'p v q' es falso?",
+    "a": "Cuando p o q es 0",
+    "b": "Cuando q y p son 0",
+    "c": "Cuando ninguna es 0",
+    "correct": "b",
+    "number": "1 / 5" 
+  },
+  {
+    "question": "¿Cuando el valor de verdad de 'p ^ q' es falso?",
+    "a": "Cuando p y q son 1",
+    "b": "Cuando q o p es 0",
+    "c": "Cuando ambas son 1",
+    "correct": "b",
+    "number": "2 / 5"
+  },
+  {
+    "question": "¿Cuando el valor de verdad de 'p ^ ~q' es verdadero?",
+    "a": "Cuando p es 1 y q es 0",
+    "b": "Cuando p es 1 o q es 0",
+    "c": "Cuando p o ~q son 1",
+    "correct": "a",
+    "number": "3 / 5"
+  },
+  {
+    "question": "¿Cuando el valor de verdad de 'p v (p ^ q)' es falso?",
+    "a": "Cuando q es 1",
+    "b": "Cuando q es 0",
+    "c": "Cuando p no es 1",
+    "correct": "c",
+    "number": "4 / 5"
+  },
+  {
+    "question": "¿Cual es el valor de p si 'p -> q' es falso?",
+    "a": "p es 1",
+    "b": "p es 0",
+    "c": "p es falso",
+    "correct": "a",
+    "number": "5 / 5"
+  }
+]

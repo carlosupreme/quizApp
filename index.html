@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="container-log-in" id="form-home">
+      <h1 class="log-in">Log in</h1>
+      <label for="name">
+        Nombre de usuario
+        <input
+          autocomplete="off"
+          type="text"
+          id="nombre"
+          required
+          name="nombre"
+        />
+      </label>
+      <label>
+        Materia a estudiar
+        <select name="materia" id="materia" required>
+          <option></option>
+          <option value="matematicas">Matematicas</option>
+        </select>
+      </label>
+      <label>
+        Unidad de la materia
+        <select name="unidad" id="unidad" required>
+          <option></option>
+          <option value="1">Sistemas numericos</option>
+          <option value="2">Conjuntos y relaciones</option>
+          <option value="3">Logica matematica</option>
+          <option value="4">Algebra de Bool</option>
+        </select>
+      </label>
+      <input type="submit" value="Start" />
+    </form>
+  </body>
+  <script src="./index.js" type="module"></script>
+</html>
